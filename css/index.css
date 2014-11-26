@@ -57,6 +57,10 @@ body{
   background-repeat: repeat;
 }
 
+.container{
+  margin: 0 40px;
+}
+
 
 .dashit {
   text-align: center;
@@ -219,4 +223,51 @@ margin: 10px auto 100px;
 
 .margin_left{
   margin-left: 15px;
+}
+
+.about_me {
+  margin: 0 40px;
+}
+
+.photo img {
+  width: 30%;
+  float: left;
+}
+
+.about_blurb {
+  overflow: hidden;
+}
+
+.about_blurb p {
+  padding: 0 30px;
+  margin-bottom: 15px;
+}
+
+.motto {
+  font-size: 1.9rem;
+}
+
+#subsection {
+  padding-right: 150px ;
+}
+
+
+.losange, .losange div {
+  transform-origin: 50% 50%;
+  overflow: hidden;
+  width: 250px;
+  height: 250px;
+}
+.losange {
+  transform: rotate(45deg) translateY(10px);
+  float: left;
+}
+.losange .los1 {
+  width: 355px;
+  height: 355px;
+  transform: rotate(-45deg) translateY(-74px);
+}
+.losange .los1 img {
+  width: 100%;
+  height: auto;
 }
