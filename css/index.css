@@ -1,0 +1,201 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-family: 'Lato', sans-serif;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+body{
+  background: -webkit-linear-gradient(90deg, #FFEEEE 10%, #DDEFBB 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #FFEEEE 10%, #DDEFBB 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #FFEEEE 10%, #DDEFBB 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #FFEEEE 10%, #DDEFBB 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #FFEEEE 10%, #DDEFBB 90%); /* W3C */
+  background-repeat: repeat;
+}
+
+
+.dashit {
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  width: 40%;
+}
+
+.quote{
+  font-family: 'Lato', sans-serif;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-top: 20%;
+  /*top: 35rem;*/
+/*  position: relative;*/
+  z-index: 1;
+  }
+
+
+.spinner {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #000;
+  background-color: none;
+  margin: 7px auto 0 auto;
+   -ms-transform: rotate(20deg); /* IE 9 */
+  -webkit-transform: rotate(20deg); /* Chrome, Safari, Opera */
+  transform: rotate(20deg);
+  -webkit-animation: rotateplane 1.9s infinite ease-in-out;
+  -webkit-animation-delay: 4s;
+  -webkit-animation-duration: 4s;
+  animation: rotateplane 1.9s infinite ease-in-out;
+  animation-delay: 4s;
+  animation-duration: 4s;
+
+
+}
+
+@-webkit-keyframes rotateplane {
+  0% { -webkit-transform: perspective(120px) rotate(45deg) }
+  50% { -webkit-transform: perspective(120px) rotateY(180deg) rotate(45deg)  }
+  100% { -webkit-transform: perspective(120px) rotateY(180deg)  rotateX(0deg) rotate(45deg)  }
+}
+
+@keyframes rotateplane {
+  0% {
+    transform: perspective(120px) rotateX(0deg) rotateY(0deg) rotate(45deg) ;
+    -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg) rotate(45deg);
+  } 50% {
+    transform: perspective(120px) rotateX(0deg) rotateY(0deg) rotate(45deg) ;
+    -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg) rotate(45deg);
+  } 100% {
+    transform: perspective(120px) rotateX(0deg) rotateY(-179.9deg) rotate(45deg) ;
+    -webkit-transform: perspective(120px) rotateX(0deg) rotateY(-179.9deg) rotate(45deg) ;
+  }
+}
+
+body, html {
+ height: 100%;
+ margin: 0;
+}
+
+
+.header, .nav {
+text-align: center;
+color: #fff;
+}
+
+.header, .nav {
+text-align: center;
+color: #fff;
+}
+.header {
+padding: 50px 0;
+background-color: #333;
+
+}
+
+.nav {
+padding: 25px 0;
+position: -webkit-sticky;
+top: 45px;
+z-index: 1;
+}
+
+.content {
+width: 600px;
+margin: 10px auto 100px;
+}
+
+
+.sticky {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    border-top: 0;
+    background: #fff;
+    opacity: 0.7;
+    -webkit-animation: fadein 1.5s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 1.5s; /* Firefox < 16 */
+        -ms-animation: fadein 1.5s; /* Internet Explorer */
+         -o-animation: fadein 1.5s; /* Opera < 12.1 */
+            animation: fadein 1.5s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 0.7; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 0.7; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 0.7; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 0.7; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 0.7; }
+}
+
+
+.nav ul li {
+  display: inline-block;
+  color: #000;
+  font-size: 1rem;
+}
