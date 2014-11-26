@@ -75,6 +75,13 @@ body{
   z-index: 1;
   }
 
+  .author {
+    font-size: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
 
 .spinner {
   width: 40px;
@@ -197,5 +204,19 @@ margin: 10px auto 100px;
 .nav ul li {
   display: inline-block;
   color: #000;
-  font-size: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav_item {
+  padding-right: 10px;
+  vertical-align: 10px;
+}
+
+.margin_right{
+  margin-right: 15px;
+}
+
+.margin_left{
+  margin-left: 15px;
 }

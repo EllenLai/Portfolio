@@ -1,9 +1,11 @@
 
 $(document).ready(function() {
+$('.nav_item').hide();
 var stickyNavTop = $('.nav').offset().top;
 
 var stickyNav = function(){
 var scrollTop = $(window).scrollTop();
+
 
 if (scrollTop > stickyNavTop) {
     $('.nav').addClass('sticky');
