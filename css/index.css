@@ -287,9 +287,10 @@ margin: 10px auto 100px;
     transform: rotateY(180deg);
   }
 
-.flip-container, .front, .back {
-  width: 320px;
-  height: 427px;
+.flip-container, .front, .front2, .front3, .front4, .back {
+  width: 300px;
+  height: 300px;
+  float: left;
 }
 
 .flipper {
@@ -308,7 +309,7 @@ margin: 10px auto 100px;
   position: relative;
 }
 
-.front, .back {
+.front, .front2, .front3, .front4, .back{
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
   -o-backface-visibility: hidden;
@@ -324,7 +325,22 @@ margin: 10px auto 100px;
   z-index: 2;
 }
 
-.back {
+.front2{
+  background: url(../images/gp.png) 0 0 no-repeat;
+  z-index: 2;
+}
+
+.front3{
+  background: url(../images/artbattle.png) 0 0 no-repeat;
+  z-index: 2;
+}
+
+.front4{
+  background: url(../images/hb.jpg) 0 0 no-repeat;
+  z-index: 2;
+}
+
+.back{
   -webkit-transform: rotateY(180deg);
   -moz-transform: rotateY(180deg);
   -o-transform: rotateY(180deg);
@@ -333,7 +349,7 @@ margin: 10px auto 100px;
   background: #f8f8f8;
 }
 
-.front .name {
+.front .name, .front2 .name, .front3 .name, .front4 .name {
   font-size: 2em;
   display: inline-block;
   background: rgba(33, 33, 33, 0.9);
