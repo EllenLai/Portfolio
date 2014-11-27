@@ -135,10 +135,6 @@ text-align: center;
 color: #fff;
 }
 
-.header, .nav {
-text-align: center;
-color: #fff;
-}
 .header {
 padding: 50px 0;
 background-color: #333;
@@ -168,11 +164,11 @@ margin: 10px auto 100px;
     border-top: 0;
     background: #fff;
     opacity: 0.7;
-    -webkit-animation: fadein 1.5s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 1.5s; /* Firefox < 16 */
-        -ms-animation: fadein 1.5s; /* Internet Explorer */
-         -o-animation: fadein 1.5s; /* Opera < 12.1 */
-            animation: fadein 1.5s;
+    -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 1s; /* Firefox < 16 */
+        -ms-animation: fadein 1s; /* Internet Explorer */
+         -o-animation: fadein 1s; /* Opera < 12.1 */
+            animation: fadein 1s;
 }
 
 @keyframes fadein {
