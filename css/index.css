@@ -49,18 +49,15 @@ table {
 
 
 body{
-  background: -webkit-linear-gradient(90deg, #FFEEEE 10%, #DDEFBB 90%); /* Chrome 10+, Saf5.1+ */
-  background:    -moz-linear-gradient(90deg, #FFEEEE 10%, #DDEFBB 90%); /* FF3.6+ */
-  background:     -ms-linear-gradient(90deg, #FFEEEE 10%, #DDEFBB 90%); /* IE10 */
-  background:      -o-linear-gradient(90deg, #FFEEEE 10%, #DDEFBB 90%); /* Opera 11.10+ */
-  background:         linear-gradient(90deg, #FFEEEE 10%, #DDEFBB 90%); /* W3C */
-  background-repeat: repeat;
 }
 
 .container{
   margin: 0 40px;
 }
 
+.clearfix {
+  clear:both;
+}
 
 .dashit {
   text-align: center;
@@ -86,6 +83,9 @@ body{
     text-align: center;
   }
 
+.showspin {
+  display: none;
+}
 
 .spinner {
   width: 40px;
@@ -102,7 +102,6 @@ body{
   animation: rotateplane 1.9s infinite ease-in-out;
   animation-delay: 4s;
   animation-duration: 4s;
-
 
 }
 
@@ -161,6 +160,7 @@ margin: 10px auto 100px;
 
 .sticky {
     position: fixed;
+    display: block;
     width: 100%;
     left: 0;
     top: 0;
@@ -270,6 +270,10 @@ margin: 10px auto 100px;
 .losange .los1 img {
   width: 100%;
   height: auto;
+}
+
+.personal {
+  float: left;
 }
 
 .flip-container {
@@ -399,4 +403,107 @@ margin: 10px auto 100px;
   padding: 0 20px;
   font-family: arial;
   line-height: 2em;
+}
+
+
+/* ============================================================
+  PRIMARY STRUCTURE
+============================================================ */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.hero {
+    position: fixed;
+    top: 50%; /* or whatever position is desired */
+    left: 0;
+    right: 0;
+    height: 0;
+    /* center all inline content */
+    text-align: center;
+}
+
+.container > h1 {
+    /* make the block inline */
+    display: inline-block;
+    /* reset container's center alignment */
+    text-align: left;
+}
+/* ============================================================
+  SECTIONS
+============================================================ */
+section.module:last-child {
+  margin-bottom: 0;
+}
+section.module h2 {
+  margin-bottom: 40px;
+  font-family: "Roboto Slab", serif;
+  font-size: 30px;
+}
+section.module p {
+  margin-bottom: 40px;
+  font-size: 16px;
+  font-weight: 300;
+}
+section.module p:last-child {
+  margin-bottom: 0;
+}
+section.module.content {
+  padding: 40px 0;
+  position: relative;
+  z-index: 2;
+  background: #fff;
+  width: 100%;
+}
+section.module.parallax {
+  height: 600px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+section.module.parallax h1 {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  color: #000;
+}
+section.module.parallax-1 {
+ /* background-image: url("../images/sunset.jpg");*/
+   background: -webkit-linear-gradient(90deg, #FFEEEE 10%, #DDEFBB 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #FFEEEE 10%, #DDEFBB 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #FFEEEE 10%, #DDEFBB 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #FFEEEE 10%, #DDEFBB 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #FFEEEE 10%, #DDEFBB 90%); /* W3C */
+  background-repeat: repeat;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+}
+section.module.parallax-2 {
+  background-image: url("../img/demo/_small/2.jpg");
+}
+section.module.parallax-3 {
+  background-image: url("../img/demo/_small/3.jpg");
+}
+
+@media all and (min-width: 600px) {
+  section.module h2 {
+    font-size: 42px;
+  }
+  section.module p {
+    font-size: 20px;
+  }
+  section.module.parallax h1 {
+    font-size: 96px;
+  }
+}
+@media all and (min-width: 960px) {
+  section.module.parallax h1 {
+    font-size: 40px;
+  }
 }

@@ -1,6 +1,6 @@
 
 $(document).ready(function() {
-$('.nav_item').hide();
+  $('.nav_item').hide();
 var stickyNavTop = $('.nav').offset().top;
 
 var stickyNav = function(){
