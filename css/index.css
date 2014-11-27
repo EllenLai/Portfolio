@@ -164,11 +164,11 @@ margin: 10px auto 100px;
     border-top: 0;
     background: #fff;
     opacity: 0.7;
-    -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 1s; /* Firefox < 16 */
-        -ms-animation: fadein 1s; /* Internet Explorer */
-         -o-animation: fadein 1s; /* Opera < 12.1 */
-            animation: fadein 1s;
+    -webkit-animation: fadein 1.5s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 1.5s; /* Firefox < 16 */
+        -ms-animation: fadein 1.5s; /* Internet Explorer */
+         -o-animation: fadein 1.5s; /* Opera < 12.1 */
+            animation: fadein 1.5s;
 }
 
 @keyframes fadein {
@@ -221,8 +221,13 @@ margin: 10px auto 100px;
   margin-left: 15px;
 }
 
-.about_me {
-  margin: 0 40px;
+
+.part {
+  margin: 40px 0px;
+}
+
+.work_section {
+  overflow: hidden;
 }
 
 .photo img {
@@ -434,7 +439,6 @@ section.module:last-child {
 }
 section.module h2 {
   margin-bottom: 40px;
-  font-family: "Roboto Slab", serif;
   font-size: 30px;
 }
 section.module p {
@@ -442,9 +446,7 @@ section.module p {
   font-size: 16px;
   font-weight: 300;
 }
-section.module p:last-child {
-  margin-bottom: 0;
-}
+
 section.module.content {
   padding: 40px 0;
   position: relative;
@@ -501,5 +503,207 @@ section.module.parallax-3 {
 @media all and (min-width: 960px) {
   section.module.parallax h1 {
     font-size: 40px;
+  }
+}
+
+
+.bar {
+  height:20px;
+  text-align:center;
+  width: 400px;
+  margin-bottom: 10px;
+}
+
+.level {
+  height:20px;
+  background: #585858;
+  width: 80%;
+}
+
+.label {
+  text-align: right;
+  padding-right: 10px;
+}
+
+
+.thirty.start {
+  width: 0px;
+  background: #969696;
+  -webkit-animation: thirty 2s ease-out forwards;
+     -moz-animation: thirty 2s ease-out forwards;
+      -ms-animation: thirty 2s ease-out forwards;
+       -o-animation: thirty 2s ease-out forwards;
+          animation: thirty 2s ease-out forwards;
+}
+
+@-moz-keyframes thirty {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 30%;
+    }
+}
+
+@-webkit-keyframes thirty {
+  0% {
+      width: 0px;
+  }
+
+  100% {
+      width: 30%;
+  }
+}
+
+
+.fourty.start {
+  width: 0px;
+  background: #969696;
+  -webkit-animation: fourty 2s ease-out forwards;
+     -moz-animation: fourty 2s ease-out forwards;
+      -ms-animation: fourty 2s ease-out forwards;
+       -o-animation: fourty 2s ease-out forwards;
+          animation: fourty 2s ease-out forwards;
+}
+
+@-moz-keyframes fourty {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 40%;
+    }
+}
+
+@-webkit-keyframes fourty {
+  0% {
+      width: 0px;
+  }
+
+  100% {
+      width: 40%;
+  }
+}
+
+
+.fifty.start {
+  width: 0px;
+  background: #969696;
+  -webkit-animation: fifty 2s ease-out forwards;
+     -moz-animation: fifty 2s ease-out forwards;
+      -ms-animation: fifty 2s ease-out forwards;
+       -o-animation: fifty 2s ease-out forwards;
+          animation: fifty 2s ease-out forwards;
+}
+
+@-moz-keyframes fifty {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 50%;
+    }
+}
+
+@-webkit-keyframes fifty {
+  0% {
+      width: 0px;
+  }
+
+  100% {
+      width: 50%;
+  }
+}
+
+.seventy.start {
+  width: 0px;
+  background: #969696;
+  -webkit-animation: seventy 2s ease-out forwards;
+     -moz-animation: seventy 2s ease-out forwards;
+      -ms-animation: seventy 2s ease-out forwards;
+       -o-animation: seventy 2s ease-out forwards;
+          animation: seventy 2s ease-out forwards;
+}
+
+@-moz-keyframes seventy {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 70%;
+    }
+}
+
+@-webkit-keyframes seventy {
+  0% {
+      width: 0px;
+  }
+
+  100% {
+      width: 70%;
+  }
+}
+
+.eighty.start {
+  width: 0px;
+  background: #969696;
+  -webkit-animation: eighty 2s ease-out forwards;
+     -moz-animation: eighty 2s ease-out forwards;
+      -ms-animation: eighty 2s ease-out forwards;
+       -o-animation: eighty 2s ease-out forwards;
+          animation: eighty 2s ease-out forwards;
+}
+
+@-moz-keyframes eighty {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 80%;
+    }
+}
+
+@-webkit-keyframes eighty {
+  0% {
+      width: 0px;
+  }
+
+  100% {
+      width: 80%;
+  }
+}
+
+.ninty.start {
+  width: 0px;
+  background: #969696;
+  -webkit-animation: ninty 2s ease-out forwards;
+     -moz-animation: ninty 2s ease-out forwards;
+      -ms-animation: ninty 2s ease-out forwards;
+       -o-animation: ninty 2s ease-out forwards;
+          animation: ninty 2s ease-out forwards;
+}
+
+@-moz-keyframes ninty {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 90%;
+    }
+}
+
+@-webkit-keyframes ninty {
+  0% {
+      width: 0px;
+  }
+
+  100% {
+      width: 90%;
   }
 }
