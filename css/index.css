@@ -506,7 +506,7 @@ SKILLS SECTION
 }
 
 .personal {
-  padding-top: 30px;
+  padding-top: 60px;
 }
 
 .personal h3 {
@@ -690,7 +690,6 @@ WORK SECTION
   -moz-transform: rotateY(180deg);
   -o-transform: rotateY(180deg);
   transform: rotateY(180deg);
-  background: #f8f8f8;
 }
 
 .front .name, .front2 .name, .front3 .name, .front4 .name {
@@ -743,6 +742,23 @@ WORK SECTION
   padding: 0 20px;
   font-family: arial;
   line-height: 2em;
+}
+
+.back-title {
+  font-weight: bolder;
+  padding-bottom: 10px;
+  font-size: 1.3rem;
+
+}
+
+.techs li {
+  display: block;
+}
+
+.techs li a {
+  text-decoration: none;
+  color: #4f6885;
+  font-weight: bold;
 }
 
 /*===================================
