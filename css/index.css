@@ -68,6 +68,10 @@ body, html {
   margin: 40px 0px;
 }
 
+.part h2 {
+  border-bottom: 1px solid #000;
+}
+
 
 
 /*===================================
