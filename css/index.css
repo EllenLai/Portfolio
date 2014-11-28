@@ -475,12 +475,27 @@ WORK SECTION
   overflow: hidden;
 }
 
+.boxwrapper {
+  overflow: hidden;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.boxwrapper li{
+  display: inline-block;
+  list-style-type: none;
+  padding: 0 15px;
+
+
+}
+
+
 .flip-container {
   -webkit-perspective: 1000;
   -moz-perspective: 1000;
   -o-perspective: 1000;
   perspective: 1000;
-  border: 1px solid #000;
 }
 
 .flip-container:hover .flipper,
@@ -526,8 +541,8 @@ WORK SECTION
 
 
 .front {
-  background: url(../images/sickkids.jpg) -33px 0 no-repeat;
-  background-size: 256px;
+  background: url(../images/smile_large.png) 0 50% no-repeat;
+  background-size: 200px;
   z-index: 2;
 }
 
