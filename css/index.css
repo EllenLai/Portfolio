@@ -69,6 +69,7 @@ body, html {
 }
 
 .part h2 {
+  padding-bottom: 10px;
   border-bottom: 1px solid #000;
 }
 
@@ -470,6 +471,34 @@ SKILLS SECTION
   }
 }
 
+.technical {
+  float: left;
+}
+
+.personal {
+  padding-top: 30px;
+}
+
+.personal h3 {
+  margin-bottom: 20px;
+}
+
+.personal ul {
+  overflow: hidden;
+  margin: auto;
+  text-align: center;
+}
+
+.personal ul li {
+  background: #d9f8f9;
+  overflow: hidden;
+  display: inline-block;
+  text-align: center;
+  padding: 20px 10px;
+  border-radius: 5px;
+  margin-right: 5px;
+  font-size: 1.5rem;
+}
 
 /*===================================
 WORK SECTION
@@ -698,10 +727,8 @@ section.module.parallax {
 section.module.parallax h1 {
   color: rgba(255, 255, 255, 0.8);
   font-size: 40px;
-  font-weight: 700;
   text-align: center;
   text-transform: uppercase;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   color: #000;
 }
 section.module.parallax-1 {
