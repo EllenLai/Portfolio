@@ -49,9 +49,21 @@ function checkAnimation() {
     }
 }
 
+function checkAnimation2() {
+    var $elem = $('.skillsq');
+
+    if (isElementInViewport($elem)) {
+        // Start the animation
+        $elem.addClass('slideUp');
+    } else {
+        $elem.removeClass('slideUp');
+    }
+}
+
 // Capture scroll events
 $(window).scroll(function(){
     checkAnimation();
+    checkAnimation2();
 });
 
 
