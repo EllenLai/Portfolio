@@ -218,6 +218,11 @@ STICKY NAV
   font-weight: bold;
 }
 
+.nav ul li a{
+    text-decoration: none;
+    color: #000;
+}
+
 .nav_item {
   padding-right: 10px;
   vertical-align: 10px;
@@ -237,7 +242,7 @@ ABOUT SECTION
 ====================================*/
 
 .about_section {
-  height: 500px;
+  height: 350px;
   background: #fff;
   margin-top: 120px;
 }
@@ -268,6 +273,10 @@ SKILLS SECTION
 
 .skills_section {
   height: 500px;
+}
+
+.skills_wrapper {
+  margin-left: 40px;
 }
 
 .bar {
@@ -592,7 +601,7 @@ WORK SECTION
 
 .work_section {
   overflow: hidden;
-  height: 400px;
+  height: 450px;
 }
 
 .boxwrapper {
@@ -766,12 +775,26 @@ WORK SECTION
 CONTACT SECTION
 ====================================*/
 
-.contact_wrapper {
-  margin-left: 30px;
+.contact_section h2 {
+  margin: 0 auto;
+  text-align: center;
+  border-bottom: none;
+  margin-bottom: 0px !important;
+}
+
+
+.contact_items {
+  margin: 0 auto;
+  text-align: center;
 }
 .contact_items li {
   display: inline-block;
-  margin-right: 10px;
+  padding: 0 10px;
+}
+
+.contact_items li a {
+  text-decoration: none;
+  color: #000;
 }
 
 /* ============================================================
