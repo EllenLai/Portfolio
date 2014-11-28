@@ -160,7 +160,6 @@ STICKY NAV
 
 .content {
   width: 600px;
-  margin: 10px auto 100px;
 }
 
 
@@ -668,6 +667,11 @@ WORK SECTION
   left: 0;
 }
 
+/*.desaturate{
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  filter: grayscale(100%);
+  }*/
 
 .front {
   background: url(../images/smile_large.png) 0 50% no-repeat;
@@ -797,6 +801,29 @@ CONTACT SECTION
   color: #000;
 }
 
+
+/*===================================
+FOOTER SECTION
+====================================*/
+
+.footer {
+  background: -webkit-linear-gradient(90deg, #FFEEEE 10%, #DDEFBB 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #FFEEEE 10%, #DDEFBB 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #FFEEEE 10%, #DDEFBB 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #FFEEEE 10%, #DDEFBB 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #FFEEEE 10%, #DDEFBB 90%); /* W3C */
+  background-repeat: repeat;
+  height: 100px;
+}
+
+.footer p {
+  font-size: 1rem;
+  text-align: center;
+  padding-top: 38px;
+
+}
+
+
 /* ============================================================
   PRIMARY STRUCTURE
 ============================================================ */
@@ -837,7 +864,6 @@ section.module p {
 }
 
 section.module.content {
-  padding: 40px 0;
   position: relative;
   z-index: 2;
   background: #fff;
