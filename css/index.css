@@ -1,3 +1,7 @@
+/*===================================
+GLOBAL CSS
+====================================*/
+
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -47,10 +51,6 @@ table {
   border-spacing: 0;
 }
 
-
-body{
-}
-
 .container{
   margin: 0 40px;
 }
@@ -59,12 +59,15 @@ body{
   clear:both;
 }
 
-.dashit {
-  text-align: center;
-  margin-right: auto;
-  margin-left: auto;
-  width: 40%;
+body, html {
+ height: 100%;
+ margin: 0;
 }
+
+
+/*===================================
+HERO SECTION
+====================================*/
 
 .quote{
   font-family: 'Lato', sans-serif;
@@ -76,15 +79,16 @@ body{
   z-index: 1;
   }
 
-  .author {
-    font-size: 2rem;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-  }
+.author {
+  font-size: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 12px;
+}
 
-.showspin {
-  display: none;
+#down {
+  margin-top: 40px;
 }
 
 .spinner {
@@ -124,10 +128,6 @@ body{
   }
 }
 
-body, html {
- height: 100%;
- margin: 0;
-}
 
 
 .header, .nav {
@@ -226,27 +226,41 @@ margin: 10px auto 100px;
   margin: 40px 0px;
 }
 
+/*===================================
+ABOUT SECTION
+====================================*/
+
+.about_section {
+  height: 700px;
+  background: #fff;
+}
+
+.about_blurb {
+  text-align: justify;
+  margin: auto;
+  width: 800px;
+}
+
+#motto {
+  font-size: 2rem;
+  margin-bottom: 9px;
+}
+
+.hi {
+  font-size: 2.8rem;
+}
+
+#blurb {
+  line-height: 2rem;
+}
+
+
+
+
 .work_section {
   overflow: hidden;
 }
 
-.photo img {
-  width: 30%;
-  float: left;
-}
-
-.about_blurb {
-  overflow: hidden;
-}
-
-.about_blurb p {
-  padding: 0 30px;
-  margin-bottom: 15px;
-}
-
-.motto {
-  font-size: 1.9rem;
-}
 
 #subsection {
   padding-right: 150px ;
@@ -442,7 +456,6 @@ section.module h2 {
   font-size: 30px;
 }
 section.module p {
-  margin-bottom: 40px;
   font-size: 16px;
   font-weight: 300;
 }
