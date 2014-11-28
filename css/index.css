@@ -381,6 +381,36 @@ SKILLS SECTION
   }
 }
 
+.sixty.start {
+  width: 0px;
+  background: #969696;
+  -webkit-animation: sixty 2s ease-out forwards;
+     -moz-animation: sixty 2s ease-out forwards;
+      -ms-animation: sixty 2s ease-out forwards;
+       -o-animation: sixty 2s ease-out forwards;
+          animation: sixty 2s ease-out forwards;
+}
+
+@-moz-keyframes sixty {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 60%;
+    }
+}
+
+@-webkit-keyframes sixty {
+  0% {
+      width: 0px;
+  }
+
+  100% {
+      width: 60%;
+  }
+}
+
 .seventy.start {
   width: 0px;
   background: #969696;
