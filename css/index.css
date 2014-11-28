@@ -64,6 +64,11 @@ body, html {
  margin: 0;
 }
 
+.part {
+  margin: 40px 0px;
+}
+
+
 
 /*===================================
 HERO SECTION
@@ -74,8 +79,6 @@ HERO SECTION
   font-size: 2.5rem;
   text-align: center;
   margin-top: 20%;
-  /*top: 35rem;*/
-/*  position: relative;*/
   z-index: 1;
   }
 
@@ -128,47 +131,49 @@ HERO SECTION
   }
 }
 
-
+/*===================================
+STICKY NAV
+====================================*/
 
 .header, .nav {
-text-align: center;
-color: #fff;
+  text-align: center;
+  color: #fff;
 }
 
 .header {
-padding: 50px 0;
-background-color: #333;
+  padding: 50px 0;
+  background-color: #333;
 
 }
 
 .nav {
-padding: 25px 0;
-position: -webkit-sticky;
-top: 45px;
-z-index: 1;
+  padding: 25px 0;
+  position: -webkit-sticky;
+  top: 45px;
+  z-index: 1;
 }
 
 .content {
-width: 600px;
-margin: 10px auto 100px;
+  width: 600px;
+  margin: 10px auto 100px;
 }
 
 
 .sticky {
-    position: fixed;
-    display: block;
-    width: 100%;
-    left: 0;
-    top: 0;
-    z-index: 100;
-    border-top: 0;
-    background: #fff;
-    opacity: 0.7;
-    -webkit-animation: fadein 1.5s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 1.5s; /* Firefox < 16 */
-        -ms-animation: fadein 1.5s; /* Internet Explorer */
-         -o-animation: fadein 1.5s; /* Opera < 12.1 */
-            animation: fadein 1.5s;
+  position: fixed;
+  display: block;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  border-top: 0;
+  background: #fff;
+  opacity: 0.7;
+  -webkit-animation: fadein 1.5s; /* Safari, Chrome and Opera > 12.1 */
+     -moz-animation: fadein 1.5s; /* Firefox < 16 */
+      -ms-animation: fadein 1.5s; /* Internet Explorer */
+       -o-animation: fadein 1.5s; /* Opera < 12.1 */
+          animation: fadein 1.5s;
 }
 
 @keyframes fadein {
@@ -222,10 +227,6 @@ margin: 10px auto 100px;
 }
 
 
-.part {
-  margin: 40px 0px;
-}
-
 /*===================================
 ABOUT SECTION
 ====================================*/
@@ -233,6 +234,7 @@ ABOUT SECTION
 .about_section {
   height: 700px;
   background: #fff;
+  margin-top: 120px;
 }
 
 .about_blurb {
@@ -248,277 +250,20 @@ ABOUT SECTION
 
 .hi {
   font-size: 2.8rem;
+  background: #f8f4f9;
 }
 
 #blurb {
   line-height: 2rem;
 }
 
+/*===================================
+SKILLS SECTION
+====================================*/
 
-
-
-.work_section {
-  overflow: hidden;
+.skills_section {
+  height: 500px;
 }
-
-
-#subsection {
-  padding-right: 150px ;
-}
-
-
-.losange, .losange div {
-  transform-origin: 50% 50%;
-  overflow: hidden;
-  width: 250px;
-  height: 250px;
-}
-.losange {
-  transform: rotate(45deg) translateY(10px);
-  float: left;
-}
-.losange .los1 {
-  width: 355px;
-  height: 355px;
-  transform: rotate(-45deg) translateY(-74px);
-}
-.losange .los1 img {
-  width: 100%;
-  height: auto;
-}
-
-.personal {
-  float: left;
-}
-
-.flip-container {
-  -webkit-perspective: 1000;
-  -moz-perspective: 1000;
-  -o-perspective: 1000;
-  perspective: 1000;
-}
-
-  .flip-container:hover .flipper,
-  .flip-container.hover .flipper {
-    -webkit-transform: rotateY(180deg);
-    -moz-transform: rotateY(180deg);
-    -o-transform: rotateY(180deg);
-    transform: rotateY(180deg);
-  }
-
-.flip-container, .front, .front2, .front3, .front4, .back {
-  width: 300px;
-  height: 300px;
-  float: left;
-}
-
-.flipper {
-  -webkit-transition: 0.6s;
-  -webkit-transform-style: preserve-3d;
-
-  -moz-transition: 0.6s;
-  -moz-transform-style: preserve-3d;
-
-  -o-transition: 0.6s;
-  -o-transform-style: preserve-3d;
-
-  transition: 0.6s;
-  transform-style: preserve-3d;
-
-  position: relative;
-}
-
-.front, .front2, .front3, .front4, .back{
-  -webkit-backface-visibility: hidden;
-  -moz-backface-visibility: hidden;
-  -o-backface-visibility: hidden;
-  backface-visibility: hidden;
-
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.front {
-  background: url(../images/sickkids.jpg) -98px 0 no-repeat;
-  z-index: 2;
-}
-
-.front2{
-  background: url(../images/gp.png) 0 0 no-repeat;
-  z-index: 2;
-}
-
-.front3{
-  background: url(../images/artbattle.png) 0 0 no-repeat;
-  z-index: 2;
-}
-
-.front4{
-  background: url(../images/hb.jpg) 0 0 no-repeat;
-  z-index: 2;
-}
-
-.back{
-  -webkit-transform: rotateY(180deg);
-  -moz-transform: rotateY(180deg);
-  -o-transform: rotateY(180deg);
-  transform: rotateY(180deg);
-
-  background: #f8f8f8;
-}
-
-.front .name, .front2 .name, .front3 .name, .front4 .name {
-  font-size: 2em;
-  display: inline-block;
-  background: rgba(33, 33, 33, 0.9);
-  color: #f8f8f8;
-  font-family: Courier;
-  padding: 5px 10px;
-  border-radius: 5px;
-  bottom: 60px;
-  left: 25%;
-  position: absolute;
-  text-shadow: 0.1em 0.1em 0.05em #333;
-
-  -webkit-transform: rotate(-20deg);
-  -moz-transform: rotate(-20deg);
-  -o-transform: rotate(-20deg);
-  transform: rotate(-20deg);
-}
-
-/*.back-logo {
-  position: absolute;
-  top: 40px;
-  left: 90px;
-  width: 160px;
-  height: 117px;
-  background: url(http://davidwalsh.name/demo/logo.png) 0 0 no-repeat;
-}*/
-
-/*.back-title {
-  font-weight: bold;
-  color: #00304a;
-  position: absolute;
-  top: 180px;
-  left: 0;
-  right: 0;
-  text-align: center;
-  text-shadow: 0.1em 0.1em 0.05em #acd7e5;
-  font-family: Courier;
-  font-size: 2em;
-}*/
-
-.back p {
-  position: absolute;
-  bottom: 40px;
-  left: 0;
-  right: 0;
-  text-align: center;
-  padding: 0 20px;
-  font-family: arial;
-  line-height: 2em;
-}
-
-
-/* ============================================================
-  PRIMARY STRUCTURE
-============================================================ */
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.hero {
-    position: fixed;
-    top: 50%; /* or whatever position is desired */
-    left: 0;
-    right: 0;
-    height: 0;
-    /* center all inline content */
-    text-align: center;
-}
-
-.container > h1 {
-    /* make the block inline */
-    display: inline-block;
-    /* reset container's center alignment */
-    text-align: left;
-}
-/* ============================================================
-  SECTIONS
-============================================================ */
-section.module:last-child {
-  margin-bottom: 0;
-}
-section.module h2 {
-  margin-bottom: 40px;
-  font-size: 30px;
-}
-section.module p {
-  font-size: 16px;
-  font-weight: 300;
-}
-
-section.module.content {
-  padding: 40px 0;
-  position: relative;
-  z-index: 2;
-  background: #fff;
-  width: 100%;
-}
-section.module.parallax {
-  height: 600px;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-}
-section.module.parallax h1 {
-  color: rgba(255, 255, 255, 0.8);
-  font-size: 40px;
-  font-weight: 700;
-  text-align: center;
-  text-transform: uppercase;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  color: #000;
-}
-section.module.parallax-1 {
- /* background-image: url("../images/sunset.jpg");*/
-   background: -webkit-linear-gradient(90deg, #FFEEEE 10%, #DDEFBB 90%); /* Chrome 10+, Saf5.1+ */
-  background:    -moz-linear-gradient(90deg, #FFEEEE 10%, #DDEFBB 90%); /* FF3.6+ */
-  background:     -ms-linear-gradient(90deg, #FFEEEE 10%, #DDEFBB 90%); /* IE10 */
-  background:      -o-linear-gradient(90deg, #FFEEEE 10%, #DDEFBB 90%); /* Opera 11.10+ */
-  background:         linear-gradient(90deg, #FFEEEE 10%, #DDEFBB 90%); /* W3C */
-  background-repeat: repeat;
-  height: 100%;
-  position: relative;
-  z-index: 1;
-}
-section.module.parallax-2 {
-  background-image: url("../img/demo/_small/2.jpg");
-}
-section.module.parallax-3 {
-  background-image: url("../img/demo/_small/3.jpg");
-}
-
-@media all and (min-width: 600px) {
-  section.module h2 {
-    font-size: 42px;
-  }
-  section.module p {
-    font-size: 20px;
-  }
-  section.module.parallax h1 {
-    font-size: 96px;
-  }
-}
-@media all and (min-width: 960px) {
-  section.module.parallax h1 {
-    font-size: 40px;
-  }
-}
-
 
 .bar {
   height:20px;
@@ -720,3 +465,248 @@ section.module.parallax-3 {
       width: 90%;
   }
 }
+
+
+/*===================================
+WORK SECTION
+====================================*/
+
+.work_section {
+  overflow: hidden;
+}
+
+.flip-container {
+  -webkit-perspective: 1000;
+  -moz-perspective: 1000;
+  -o-perspective: 1000;
+  perspective: 1000;
+  border: 1px solid #000;
+}
+
+.flip-container:hover .flipper,
+.flip-container.hover .flipper {
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+
+.flip-container, .front, .front2, .front3, .front4, .back {
+  width: 200px;
+  height: 200px;
+  float: left;
+}
+
+.flipper {
+  -webkit-transition: 0.6s;
+  -webkit-transform-style: preserve-3d;
+
+  -moz-transition: 0.6s;
+  -moz-transform-style: preserve-3d;
+
+  -o-transition: 0.6s;
+  -o-transform-style: preserve-3d;
+
+  transition: 0.6s;
+  transform-style: preserve-3d;
+
+  position: relative;
+}
+
+.front, .front2, .front3, .front4, .back{
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  backface-visibility: hidden;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+.front {
+  background: url(../images/sickkids.jpg) -33px 0 no-repeat;
+  background-size: 256px;
+  z-index: 2;
+}
+
+
+.front2{
+  background: url(../images/gp.png) 0 50% no-repeat;
+  z-index: 2;
+  background-size: 200px;
+}
+
+.front3{
+  background: url(../images/artbattle.png) 0 50% no-repeat;
+  z-index: 2;
+  background-size: 200px;
+}
+
+.front4{
+  background: url(../images/hb.jpg) 0 50% no-repeat;
+  z-index: 2;
+  background-size: 200px;
+}
+
+.back{
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+  background: #f8f8f8;
+}
+
+.front .name, .front2 .name, .front3 .name, .front4 .name {
+  font-size: 2em;
+  display: inline-block;
+  background: rgba(33, 33, 33, 0.9);
+  color: #f8f8f8;
+  font-family: Courier;
+  padding: 5px 10px;
+  border-radius: 5px;
+  bottom: 60px;
+  left: 25%;
+  position: absolute;
+  text-shadow: 0.1em 0.1em 0.05em #333;
+
+  -webkit-transform: rotate(-20deg);
+  -moz-transform: rotate(-20deg);
+  -o-transform: rotate(-20deg);
+  transform: rotate(-20deg);
+}
+
+/*.back-logo {
+  position: absolute;
+  top: 40px;
+  left: 90px;
+  width: 160px;
+  height: 117px;
+  background: url(http://davidwalsh.name/demo/logo.png) 0 0 no-repeat;
+}*/
+
+/*.back-title {
+  font-weight: bold;
+  color: #00304a;
+  position: absolute;
+  top: 180px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  text-shadow: 0.1em 0.1em 0.05em #acd7e5;
+  font-family: Courier;
+  font-size: 2em;
+}*/
+
+.back p {
+  position: absolute;
+  bottom: 40px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding: 0 20px;
+  font-family: arial;
+  line-height: 2em;
+}
+
+
+/* ============================================================
+  PRIMARY STRUCTURE
+============================================================ */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.hero {
+    position: fixed;
+    top: 50%; /* or whatever position is desired */
+    left: 0;
+    right: 0;
+    height: 0;
+    /* center all inline content */
+    text-align: center;
+}
+
+.container > h1 {
+    /* make the block inline */
+    display: inline-block;
+    /* reset container's center alignment */
+    text-align: left;
+}
+/* ============================================================
+  SECTIONS
+============================================================ */
+section.module:last-child {
+  margin-bottom: 0;
+}
+section.module h2 {
+  margin-bottom: 40px;
+  font-size: 30px;
+}
+section.module p {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+section.module.content {
+  padding: 40px 0;
+  position: relative;
+  z-index: 2;
+  background: #fff;
+  width: 100%;
+}
+section.module.parallax {
+  height: 600px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+section.module.parallax h1 {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  color: #000;
+}
+section.module.parallax-1 {
+ /* background-image: url("../images/sunset.jpg");*/
+   background: -webkit-linear-gradient(90deg, #FFEEEE 10%, #DDEFBB 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #FFEEEE 10%, #DDEFBB 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #FFEEEE 10%, #DDEFBB 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #FFEEEE 10%, #DDEFBB 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #FFEEEE 10%, #DDEFBB 90%); /* W3C */
+  background-repeat: repeat;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+}
+section.module.parallax-2 {
+  background-image: url("../img/demo/_small/2.jpg");
+}
+section.module.parallax-3 {
+  background-image: url("../img/demo/_small/3.jpg");
+}
+
+@media all and (min-width: 600px) {
+  section.module h2 {
+    font-size: 42px;
+  }
+  section.module p {
+    font-size: 20px;
+  }
+  section.module.parallax h1 {
+    font-size: 96px;
+  }
+}
+@media all and (min-width: 960px) {
+  section.module.parallax h1 {
+    font-size: 40px;
+  }
+}
+
+
