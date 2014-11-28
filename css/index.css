@@ -232,7 +232,7 @@ ABOUT SECTION
 ====================================*/
 
 .about_section {
-  height: 700px;
+  height: 500px;
   background: #fff;
   margin-top: 120px;
 }
@@ -473,6 +473,7 @@ WORK SECTION
 
 .work_section {
   overflow: hidden;
+  height: 400px;
 }
 
 .boxwrapper {
@@ -625,6 +626,17 @@ WORK SECTION
   line-height: 2em;
 }
 
+/*===================================
+CONTACT SECTION
+====================================*/
+
+.contact_wrapper {
+  margin-left: 30px;
+}
+.contact_items li {
+  display: inline-block;
+  margin-right: 10px;
+}
 
 /* ============================================================
   PRIMARY STRUCTURE
