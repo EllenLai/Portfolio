@@ -1002,7 +1002,7 @@ section.module.parallax-3 {
 }
 
 .sticky2 {
-  background-color: #c0b4d5;
+  background-color: #c5c2d5;
   opacity: 1;
   top: 0px;
 }
@@ -1017,6 +1017,7 @@ section.module.parallax-3 {
   margin-top: 0;
   line-height: 1;
   margin-bottom: 10px;
+  visibility: hidden;
 }
 
 .logo img {
@@ -1068,7 +1069,8 @@ nav ul li {
 nav ul a {
   color: #fff;
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 1.3rem;
+  text-decoration: none;
 }
 
 .mobile-toggle {
@@ -1110,6 +1112,9 @@ nav ul a {
       display: none;
     }
 
+    .spinner {
+      display: none;
+    }
 
 }
 
