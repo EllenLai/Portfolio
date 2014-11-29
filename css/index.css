@@ -969,9 +969,7 @@ section.module.parallax-3 {
 }
 
 
-.desktop_nav {
-  display: none;
-}
+
 
 .main_h {
   position: fixed;
@@ -1003,7 +1001,7 @@ section.module.parallax-3 {
   -webkit-transform: rotate(-90deg);
 }
 
-.sticky {
+.sticky2 {
   background-color: #c0b4d5;
   opacity: 1;
   top: 0px;
@@ -1104,20 +1102,25 @@ nav ul a {
 }
 
 @media only screen and (max-width: 766px) {
-  .mobile-toggle {
-    display: block;
-  }
+    .mobile-toggle {
+      display: block;
+    }
 
-  .desktop_container {
-    display: none;
-  }
+    .desktop_nav {
+      display: none;
+    }
 
-  .contact_footer {
-  width: 100%;
-  background-color: #333333;
-  padding: 60px 20px;
+
 }
 
+@media (min-width: 766px) {
+    .mobile_nav {
+      display: none;
+    }
+
+    .desktop_nav {
+      display: block;
+    }
 }
 
 
