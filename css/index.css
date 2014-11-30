@@ -56,7 +56,7 @@ table {
 }
 
 .container{
-  margin: 0 40px;
+  padding: 0 30px;
 }
 
 .clearfix {
@@ -70,7 +70,7 @@ table {
 
 .part h2 {
   padding-bottom: 10px;
-  border-bottom: 1px solid #000;
+/*  border-bottom: 1px solid #000;*/
 }
 
 
@@ -246,7 +246,7 @@ ABOUT SECTION
 }
 
 .about_blurb {
-  text-align: justify;
+/*  text-align: justify;*/
   margin: auto;
   max-width: 800px;
 }
@@ -254,9 +254,10 @@ ABOUT SECTION
 #motto {
   font-size: 2rem;
   margin-bottom: 9px;
+  margin-top: 8px;
 }
 
-.hi {
+#hi {
   font-size: 2.8rem;
   background: #f8f4f9;
 }
@@ -538,6 +539,7 @@ SKILLS SECTION
   margin-right: 5px;
   font-size: 1.5rem;
   display: inline-block;
+  margin-bottom: 5px;
 }
 
 .slideUp{
@@ -966,6 +968,10 @@ section.module.parallax-3 {
 
   section.module.parallax.parallax-1 {
     height: 100%;
+  }
+
+  .part {
+    margin-bottom: 20px;
   }
 
 }
