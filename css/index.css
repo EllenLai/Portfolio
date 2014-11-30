@@ -73,6 +73,11 @@ table {
 /*  border-bottom: 1px solid #000;*/
 }
 
+body, html {
+height: 100%;
+margin: 0;
+}
+
 
 
 /*===================================
@@ -302,11 +307,11 @@ SKILLS SECTION
 .thirty.start {
   width: 0px;
   background: #969696;
-  -webkit-animation: thirty 2s ease-out forwards;
-     -moz-animation: thirty 2s ease-out forwards;
-      -ms-animation: thirty 2s ease-out forwards;
-       -o-animation: thirty 2s ease-out forwards;
-          animation: thirty 2s ease-out forwards;
+  -webkit-animation: thirty 3s ease-out forwards;
+     -moz-animation: thirty 3s ease-out forwards;
+      -ms-animation: thirty 3s ease-out forwards;
+       -o-animation: thirty 3s ease-out forwards;
+          animation: thirty 3s ease-out forwards;
 }
 
 @-moz-keyframes thirty {
@@ -333,11 +338,11 @@ SKILLS SECTION
 .fourty.start {
   width: 0px;
   background: #969696;
-  -webkit-animation: fourty 2s ease-out forwards;
-     -moz-animation: fourty 2s ease-out forwards;
-      -ms-animation: fourty 2s ease-out forwards;
-       -o-animation: fourty 2s ease-out forwards;
-          animation: fourty 2s ease-out forwards;
+  -webkit-animation: fourty 3s ease-out forwards;
+     -moz-animation: fourty 3s ease-out forwards;
+      -ms-animation: fourty 3s ease-out forwards;
+       -o-animation: fourty 3s ease-out forwards;
+          animation: fourty 3s ease-out forwards;
 }
 
 @-moz-keyframes fourty {
@@ -364,11 +369,11 @@ SKILLS SECTION
 .fifty.start {
   width: 0px;
   background: #969696;
-  -webkit-animation: fifty 2s ease-out forwards;
-     -moz-animation: fifty 2s ease-out forwards;
-      -ms-animation: fifty 2s ease-out forwards;
-       -o-animation: fifty 2s ease-out forwards;
-          animation: fifty 2s ease-out forwards;
+  -webkit-animation: fifty 3s ease-out forwards;
+     -moz-animation: fifty 3s ease-out forwards;
+      -ms-animation: fifty 3s ease-out forwards;
+       -o-animation: fifty 3s ease-out forwards;
+          animation: fifty 3s ease-out forwards;
 }
 
 @-moz-keyframes fifty {
@@ -394,11 +399,11 @@ SKILLS SECTION
 .sixty.start {
   width: 0px;
   background: #969696;
-  -webkit-animation: sixty 2s ease-out forwards;
-     -moz-animation: sixty 2s ease-out forwards;
-      -ms-animation: sixty 2s ease-out forwards;
-       -o-animation: sixty 2s ease-out forwards;
-          animation: sixty 2s ease-out forwards;
+  -webkit-animation: sixty 3s ease-out forwards;
+     -moz-animation: sixty 3s ease-out forwards;
+      -ms-animation: sixty 3s ease-out forwards;
+       -o-animation: sixty 3s ease-out forwards;
+          animation: sixty 3s ease-out forwards;
 }
 
 @-moz-keyframes sixty {
@@ -424,11 +429,11 @@ SKILLS SECTION
 .seventy.start {
   width: 0px;
   background: #969696;
-  -webkit-animation: seventy 2s ease-out forwards;
-     -moz-animation: seventy 2s ease-out forwards;
-      -ms-animation: seventy 2s ease-out forwards;
-       -o-animation: seventy 2s ease-out forwards;
-          animation: seventy 2s ease-out forwards;
+  -webkit-animation: seventy 3s ease-out forwards;
+     -moz-animation: seventy 3s ease-out forwards;
+      -ms-animation: seventy 3s ease-out forwards;
+       -o-animation: seventy 3s ease-out forwards;
+          animation: seventy 3s ease-out forwards;
 }
 
 @-moz-keyframes seventy {
@@ -454,11 +459,11 @@ SKILLS SECTION
 .eighty.start {
   width: 0px;
   background: #969696;
-  -webkit-animation: eighty 2s ease-out forwards;
-     -moz-animation: eighty 2s ease-out forwards;
-      -ms-animation: eighty 2s ease-out forwards;
-       -o-animation: eighty 2s ease-out forwards;
-          animation: eighty 2s ease-out forwards;
+  -webkit-animation: eighty 3s ease-out forwards;
+     -moz-animation: eighty 3s ease-out forwards;
+      -ms-animation: eighty 3s ease-out forwards;
+       -o-animation: eighty 3s ease-out forwards;
+          animation: eighty 3s ease-out forwards;
 }
 
 @-moz-keyframes eighty {
@@ -484,11 +489,11 @@ SKILLS SECTION
 .ninty.start {
   width: 0px;
   background: #969696;
-  -webkit-animation: ninty 2s ease-out forwards;
-     -moz-animation: ninty 2s ease-out forwards;
-      -ms-animation: ninty 2s ease-out forwards;
-       -o-animation: ninty 2s ease-out forwards;
-          animation: ninty 2s ease-out forwards;
+  -webkit-animation: ninty 3s ease-out forwards;
+     -moz-animation: ninty 3s ease-out forwards;
+      -ms-animation: ninty 3s ease-out forwards;
+       -o-animation: ninty 3s ease-out forwards;
+          animation: ninty 3s ease-out forwards;
 }
 
 @-moz-keyframes ninty {
