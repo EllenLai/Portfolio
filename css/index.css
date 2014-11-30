@@ -65,7 +65,7 @@ table {
 
 
 .part {
-  margin: 40px 0px;
+  padding: 40px 0px;
 }
 
 .part h2 {
@@ -240,9 +240,9 @@ ABOUT SECTION
 ====================================*/
 
 .about_section {
-  height: 350px;
   background: #fff;
-  margin-top: 120px;
+  padding-top: 120px;
+  margin-bottom: 100px;
 }
 
 .about_blurb {
@@ -271,6 +271,8 @@ SKILLS SECTION
 
 .skills_section {
   width: 100%;
+  margin-bottom: 100px;
+  overflow: hidden;
 }
 
 .skills_wrapper {
