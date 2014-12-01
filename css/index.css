@@ -247,7 +247,6 @@ ABOUT SECTION
 .about_section {
   background: #fff;
   padding-top: 120px;
-  margin-bottom: 100px;
 }
 
 .about_blurb {
@@ -264,11 +263,21 @@ ABOUT SECTION
 
 #hi {
   font-size: 2.8rem;
-  background: #f8f4f9;
+  background: #36D7B7;
+  color: #fff;
 }
 
 #blurb {
   line-height: 2rem;
+}
+
+.hello_img {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.hello_img img {
+  max-width: 100%;
 }
 
 /*===================================
@@ -277,7 +286,7 @@ SKILLS SECTION
 
 .skills_section {
   width: 100%;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   overflow: hidden;
 }
 
@@ -527,6 +536,7 @@ SKILLS SECTION
 
 .personal h3 {
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .personal ul {
@@ -536,7 +546,7 @@ SKILLS SECTION
 }
 
 .personal ul li {
-  background: #f8f4f9;
+  background: #36D7B7;
   overflow: hidden;
   text-align: center;
   padding: 20px 10px;
@@ -545,6 +555,8 @@ SKILLS SECTION
   font-size: 1.5rem;
   display: inline-block;
   margin-bottom: 5px;
+  color: #fff;
+  min-width: 40%;
 }
 
 .slideUp{
@@ -779,7 +791,7 @@ WORK SECTION
 
 .techs li a {
   text-decoration: none;
-  color: #4f6885;
+  color: #36D7B7;
   font-weight: bold;
 }
 
@@ -815,12 +827,7 @@ FOOTER SECTION
 ====================================*/
 
 .footer {
-  background: -webkit-linear-gradient(90deg, #FFEEEE 10%, #DDEFBB 90%); /* Chrome 10+, Saf5.1+ */
-  background:    -moz-linear-gradient(90deg, #FFEEEE 10%, #DDEFBB 90%); /* FF3.6+ */
-  background:     -ms-linear-gradient(90deg, #FFEEEE 10%, #DDEFBB 90%); /* IE10 */
-  background:      -o-linear-gradient(90deg, #FFEEEE 10%, #DDEFBB 90%); /* Opera 11.10+ */
-  background:         linear-gradient(90deg, #FFEEEE 10%, #DDEFBB 90%); /* W3C */
-  background-repeat: repeat;
+  background: #36D7B7;
   height: 100px;
 }
 
@@ -828,6 +835,7 @@ FOOTER SECTION
   font-size: 1rem;
   text-align: center;
   padding-top: 38px;
+  color: #fff;
 
 }
 
@@ -887,20 +895,14 @@ section.module.parallax {
 }
 section.module.parallax h1 {
   color: rgba(255, 255, 255, 0.8);
-  font-size: 40px;
+  font-size: 38px;
   text-align: center;
   text-transform: uppercase;
-  color: #000;
+  color: #fff;
   width: 100%;
 }
 section.module.parallax-1 {
- /* background-image: url("../images/sunset.jpg");*/
-   background: -webkit-linear-gradient(90deg, #FFEEEE 10%, #DDEFBB 90%); /* Chrome 10+, Saf5.1+ */
-  background:    -moz-linear-gradient(90deg, #FFEEEE 10%, #DDEFBB 90%); /* FF3.6+ */
-  background:     -ms-linear-gradient(90deg, #FFEEEE 10%, #DDEFBB 90%); /* IE10 */
-  background:      -o-linear-gradient(90deg, #FFEEEE 10%, #DDEFBB 90%); /* Opera 11.10+ */
-  background:         linear-gradient(90deg, #FFEEEE 10%, #DDEFBB 90%); /* W3C */
-  background-repeat: repeat;
+ background: #36D7B7;
   height: 100%;
   position: relative;
   z-index: 1;
@@ -1000,7 +1002,7 @@ section.module.parallax-3 {
   padding-bottom: 6px;
   font-family: "Montserrat", sans-serif;
 }
-@media only screen and (max-width: 766px) {
+@media only screen and (max-width: 900px) {
   .main_h {
     padding-top: 25px;
   }
@@ -1015,7 +1017,7 @@ section.module.parallax-3 {
 }
 
 .sticky2 {
-  background-color: #c5c2d5;
+  background-color: #757D75;
   opacity: 1;
   top: 0px;
 }
@@ -1037,7 +1039,7 @@ section.module.parallax-3 {
 width: 60px;
 margin-top: -19px;
 }
-@media only screen and (max-width: 766px) {
+@media only screen and (max-width: 900px) {
   .logo {
     float: none;
   }
@@ -1047,7 +1049,7 @@ nav {
   float: right;
   width: 60%;
 }
-@media only screen and (max-width: 766px) {
+@media only screen and (max-width: 900px) {
   nav {
     width: 100%;
   }
@@ -1058,7 +1060,7 @@ nav ul {
   text-align: right;
   float: right;
 }
-@media only screen and (max-width: 766px) {
+@media only screen and (max-width: 900px) {
   nav ul {
     padding-top: 10px;
     margin-bottom: 22px;
@@ -1072,7 +1074,7 @@ nav ul li {
   margin-left: 35px;
   line-height: 1.5;
 }
-@media only screen and (max-width: 766px) {
+@media only screen and (max-width: 900px) {
   nav ul li {
     width: 100%;
     padding: 7px 0;
@@ -1116,7 +1118,7 @@ nav ul a {
   padding: 0 2%;
 }
 
-@media only screen and (max-width: 766px) {
+@media  (max-width: 900px) {
     .mobile-toggle {
       display: block;
     }
@@ -1131,13 +1133,17 @@ nav ul a {
 
 }
 
-@media (min-width: 766px) {
+@media (min-width: 900px) {
     .mobile_nav {
       display: none;
     }
 
     .desktop_nav {
       display: block;
+    }
+
+    .hello_img img {
+      margin-left: 37%;
     }
 }
 
