@@ -162,7 +162,6 @@ STICKY NAV
 
 .nav {
   padding: 25px 0;
-  position: -webkit-sticky;
   z-index: 1;
 }
 
